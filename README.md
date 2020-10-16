@@ -1,4 +1,4 @@
-# vim
+## vim
 
 - Install [Vundle](https://github.com/VundleVim/Vundle.vim):
   ```
@@ -15,7 +15,7 @@
   
 - Run `PlugInstall`
 
-# Oh My Zsh
+## Oh My Zsh
 
 - Install [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh):
   ```
