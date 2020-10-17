@@ -93,6 +93,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 source $ZSH/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ZSH_AUTOSUGGEST_STRATEGY=(completion history)
 #ZSH_AUTOSUGGEST_STRATEGY=(completion)
