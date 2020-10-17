@@ -92,8 +92,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $ZSH/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ZSH_AUTOSUGGEST_STRATEGY=(completion history)
 #ZSH_AUTOSUGGEST_STRATEGY=(completion)
