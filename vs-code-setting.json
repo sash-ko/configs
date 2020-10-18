@@ -1,0 +1,89 @@
+{
+    "files.associations": {
+        "Pipfile": "pip-requirements",
+        "*.geojson": "json"
+    },
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "files.exclude": {
+        ".mypy_cache": true,
+        ".pytest_cache": true,
+        ".vscode": true,
+        "*.pyc": true,
+        "**/__pycache__": true,
+        "**/.ipynb_checkpoints": true
+    },
+    
+    "customizeUI.stylesheet": {
+        ".editor-actions": "display: none !important;",
+    },
+    "customizeUI.fontSizeMap": {
+        "13px": "11px",
+        "12px": "11px",
+        "window-title": "12px", // Window title font when using custom titlebar
+        "tab-title": "11px", // Used for editor tab titles
+        "monospace": "10.5px", // Used for monospace fonts in user interface
+        "menu": "13px", // Used for menu items (windows only)
+    },
+    "workbench.tree.indent": 18,
+    "window.restoreWindows": "all",
+    "python.linting.banditEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E24,W504,W293",
+        "--max-line-length=100"
+    ],
+    "python.linting.mypyArgs": [],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Dracula Soft",
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "python.autoComplete.addBrackets": true,
+    "editor.suggest.localityBonus": true,
+    "diffEditor.renderSideBySide": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "screencastMode.verticalOffset": 15,
+    "customizeUI.activityBar": "regular",
+    "customizeUI.titleBar": "regular",
+    "python.formatting.yapfArgs": [
+        "ALLOW_MULTILINE_DICTIONARY_KEYS",
+        "ALLOW_SPLIT_BEFORE_DICT_VALUE",
+        "BLANK_LINE_BEFORE_NESTED_CLASS_OR_DEF",
+        "COALESCE_BRACKETS",
+        "INDENT_DICTIONARY_VALUE",
+        "SPLIT_ALL_COMMA_SEPARATED_VALUES",
+        "SPLIT_PENALTY_IMPORT_NAMES"
+    ],
+    "editor.wordWrapColumn": 50,
+    "python.testing.pytestEnabled": false,
+    "todo-tree.highlights.enabled": true,
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+        // "editor.defaultFormatter": "ms-python.python"
+    },
+    // "python.formatting.provider": "yapf",
+    // "python.linting.mypyCategorySeverity.note": "Hint",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "python.experiments.enabled": false,
+    "python.jediEnabled": false,
+    "python.formatting.provider": "black",
+    "mypy.targets": [
+        ".",
+        "../",
+        "./*",
+        "*"
+    ],
+    "python.languageServer": "Microsoft",
+    "editor.scrollBeyondLastLine": false,
+    "vsintellicode.java.completionsEnabled": false,
+    "vsintellicode.sql.completionsEnabled": false,
+    "vsintellicode.typescript.completionsEnabled": false,
+    "terminal.integrated.inheritEnv": false,
+    "json.schemas": [
+    
+    ]
+}
