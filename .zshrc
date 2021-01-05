@@ -3,7 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 ZSH_DISABLE_COMPFIX="true"
-export ZSH="~/.oh-my-zsh"
+export ZSH=~/.oh-my-zsh
 
 export PYTHONBREAKPOINT=ipdb.set_trace
 
