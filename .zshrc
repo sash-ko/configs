@@ -142,20 +142,5 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# !! Contents within this block are managed by 'conda init' !!
-
-__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-# . "/opt/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
-    else
-# export PATH="/opt/anaconda3/bin:$PATH"  # commented out by conda initialize
-    fi
-fi
-
-unset __conda_setup
-
-# <<< conda initialize <<<
+unsetopt share_history
+setopt inc_append_history
